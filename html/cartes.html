@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartes - CR Site by Fan</title>
+    <link rel="icon" href="../autres_img/logo.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+    <script src="../js/script_nav_mobile.js" defer></script>
+    <script src="../js/script_cartes.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="hamburger-container">
+        <button class="hamburger" id="hamburger-btn">&#9776;</button>
+        <h3 class="nav_txt">Cartes - CR Site by Fan</h3>
+      </div>
+      <ul id="nav-menu">
+        <li>
+          <a href="accueil.html">
+            <span class="material-symbols-outlined">home</span>
+            <span class="nav-title">Accueil</span>
+          </a>
+        </li>
+        <li>
+          <a href="actualites.html">
+            <span class="material-symbols-outlined">newspaper</span>
+            <span class="nav-title">Actualités</span>
+          </a>
+        </li>
+        <li class="active">
+          <a href="cartes.html" class="active">
+            <span class="material-symbols-outlined">fullscreen_portrait</span>
+            <span class="nav-title">Cartes</span>
+          </a>
+        </li>
+        <li>
+          <a href="strategies.html">
+            <span class="material-symbols-outlined">strategy</span>
+            <span class="nav-title">Stratégies</span>
+          </a>
+        </li>
+        <li>
+          <a href="plus.html">
+            <span class="material-symbols-outlined">library_add</span>
+            <span class="nav-title">Plus</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+    <main>
+        <section class="hero">
+            <h1>Découvrez les cartes du jeu !</h1>
+            <p>Tous les types de cartes : Communes, Rares, Épiques, Légendaires et Champions. 
+            <br>(Statistiques au niveau tournois, soit 11)</p>
+        </section>
+
+        <section class="filter-container">
+            <button class="filter-btn active" data-filter="all">Toutes</button>
+            <button class="filter-btn" data-filter="commune">Communes</button>
+            <button class="filter-btn" data-filter="rare">Rares</button>
+            <button class="filter-btn" data-filter="épique">Épiques</button>
+            <button class="filter-btn" data-filter="légendaire">Légendaires</button>
+            <button class="filter-btn" data-filter="champion">Champions</button>
+          </section>
+
+        <div class="wrapper">
+          <section class="card-container">
+          </section>
+        </div>
+        
+    </main>
+</body>
+
+    <footer>
+        <p>&copy; 2025 Clash Royale Site by Fan. Non officiel.</p>
+    </footer>
+
+</html>
